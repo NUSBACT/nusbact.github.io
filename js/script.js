@@ -1,4 +1,4 @@
-jQuery(function ($) { "use strict";
+// jQuery(function ($) { "use strict";
 	
 	/* ========================================================================= */
 	/*	Page Preloader
@@ -162,7 +162,7 @@ jQuery(function ($) { "use strict";
 		}
 	});
 
-});
+// });
 // End Jquery Function
 
 
