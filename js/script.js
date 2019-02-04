@@ -1,4 +1,4 @@
-jQuery(function ($) { "use strict";
+// jQuery(function ($) { "use strict";
 	
 	/* ========================================================================= */
 	/*	Page Preloader
@@ -162,7 +162,7 @@ jQuery(function ($) { "use strict";
 		}
 	});
 
-});
+// });
 // End Jquery Function
 
 
@@ -264,44 +264,44 @@ jQuery(function ($) { "use strict";
 			}]
 		}];
 
-		var mapOptions = {
-			zoom: 14,
-			center: myLatLng,
-			disableDefaultUI: true,
-			scrollwheel: false,
-			navigationControl: false,
-			mapTypeControl: false,
-			scaleControl: false,
-			draggable: false,
-			mapTypeControlOptions: {
-				mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'roadatlas']
-			}
-		};
+// 		var mapOptions = {
+// 			zoom: 14,
+// 			center: myLatLng,
+// 			disableDefaultUI: true,
+// 			scrollwheel: false,
+// 			navigationControl: false,
+// 			mapTypeControl: false,
+// 			scaleControl: false,
+// 			draggable: false,
+// 			mapTypeControlOptions: {
+// 				mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'roadatlas']
+// 			}
+// 		};
 
-		var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
-
-
-		var marker = new google.maps.Marker({
-			position: myLatLng,
-			map: map,
-			title: '',
-		});
+// 		var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
 
 
-		google.maps.event.addListener(marker, 'click', function () {
-			infowindow.open(map, marker);
-		});
+// 		var marker = new google.maps.Marker({
+// 			position: myLatLng,
+// 			map: map,
+// 			title: '',
+// 		});
 
-		var styledMapOptions = {
-			name: 'US Road Atlas'
-		};
 
-		var usRoadMapType = new google.maps.StyledMapType(
-			roadAtlasStyles, styledMapOptions);
+// 		google.maps.event.addListener(marker, 'click', function () {
+// 			infowindow.open(map, marker);
+// 		});
 
-		map.mapTypes.set('roadatlas', usRoadMapType);
-		map.setMapTypeId('roadatlas');
-	}
+// 		var styledMapOptions = {
+// 			name: 'US Road Atlas'
+// 		};
 
-	google.maps.event.addDomListener(window, "load", initialize);
+// 		var usRoadMapType = new google.maps.StyledMapType(
+// 			roadAtlasStyles, styledMapOptions);
+
+// 		map.mapTypes.set('roadatlas', usRoadMapType);
+// 		map.setMapTypeId('roadatlas');
+// 	}
+
+// 	google.maps.event.addDomListener(window, "load", initialize);
 
