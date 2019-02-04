@@ -1,11 +1,11 @@
-// jQuery(function ($) { "use strict";
+jQuery(function ($) { "use strict";
 	
 	/* ========================================================================= */
 	/*	Page Preloader
 	/* ========================================================================= */
 	
-	window.onload = function () {
-		document.getElementById('preloader').style.display = 'none';
+// 	window.onload = function () {
+// 		document.getElementById('preloader').style.display = 'none';
 	}
 
 
@@ -162,7 +162,7 @@
 		}
 	});
 
-// });
+});
 // End Jquery Function
 
 
