@@ -190,79 +190,79 @@
 	/*	Google Map Customization
 	/* =========================================================================  */
 
-	function initialize() {
+// 	function initialize() {
 
-		var myLatLng = new google.maps.LatLng(22.333851, 91.812256);
+// 		var myLatLng = new google.maps.LatLng(22.333851, 91.812256);
 
-		var roadAtlasStyles = [{
-			"featureType": "landscape",
-			"elementType": "geometry.fill",
-			"stylers": [{
-				"color": "#2F3238"
-			}]
-		}, {
-			"elementType": "labels.text.fill",
-			"stylers": [{
-				"color": "#FFFFFF"
-			}]
-		}, {
-			"elementType": "labels.text.stroke",
-			"stylers": [{
-				"visibility": "off"
-			}]
-		}, {
-			"featureType": "road",
-			"elementType": "geometry.fill",
-			"stylers": [{
-				"color": "#50525f"
-			}]
-		}, {
-			"featureType": "road",
-			"elementType": "geometry.stroke",
-			"stylers": [{
-				"visibility": "on"
-			}, {
-				"color": "#808080"
-			}]
-		}, {
-			"featureType": "poi",
-			"elementType": "labels",
-			"stylers": [{
-				"visibility": "off"
-			}]
-		}, {
-			"featureType": "transit",
-			"elementType": "labels.icon",
-			"stylers": [{
-				"visibility": "off"
-			}]
-		}, {
-			"featureType": "poi",
-			"elementType": "geometry",
-			"stylers": [{
-				"color": "#808080"
-			}]
-		}, {
-			"featureType": "water",
-			"elementType": "geometry.fill",
-			"stylers": [{
-				"color": "#3071a7"
-			}, {
-				"saturation": -65
-			}]
-		}, {
-			"featureType": "road",
-			"elementType": "labels.icon",
-			"stylers": [{
-				"visibility": "off"
-			}]
-		}, {
-			"featureType": "landscape",
-			"elementType": "geometry.stroke",
-			"stylers": [{
-				"color": "#bbbbbb"
-			}]
-		}];
+// 		var roadAtlasStyles = [{
+// 			"featureType": "landscape",
+// 			"elementType": "geometry.fill",
+// 			"stylers": [{
+// 				"color": "#2F3238"
+// 			}]
+// 		}, {
+// 			"elementType": "labels.text.fill",
+// 			"stylers": [{
+// 				"color": "#FFFFFF"
+// 			}]
+// 		}, {
+// 			"elementType": "labels.text.stroke",
+// 			"stylers": [{
+// 				"visibility": "off"
+// 			}]
+// 		}, {
+// 			"featureType": "road",
+// 			"elementType": "geometry.fill",
+// 			"stylers": [{
+// 				"color": "#50525f"
+// 			}]
+// 		}, {
+// 			"featureType": "road",
+// 			"elementType": "geometry.stroke",
+// 			"stylers": [{
+// 				"visibility": "on"
+// 			}, {
+// 				"color": "#808080"
+// 			}]
+// 		}, {
+// 			"featureType": "poi",
+// 			"elementType": "labels",
+// 			"stylers": [{
+// 				"visibility": "off"
+// 			}]
+// 		}, {
+// 			"featureType": "transit",
+// 			"elementType": "labels.icon",
+// 			"stylers": [{
+// 				"visibility": "off"
+// 			}]
+// 		}, {
+// 			"featureType": "poi",
+// 			"elementType": "geometry",
+// 			"stylers": [{
+// 				"color": "#808080"
+// 			}]
+// 		}, {
+// 			"featureType": "water",
+// 			"elementType": "geometry.fill",
+// 			"stylers": [{
+// 				"color": "#3071a7"
+// 			}, {
+// 				"saturation": -65
+// 			}]
+// 		}, {
+// 			"featureType": "road",
+// 			"elementType": "labels.icon",
+// 			"stylers": [{
+// 				"visibility": "off"
+// 			}]
+// 		}, {
+// 			"featureType": "landscape",
+// 			"elementType": "geometry.stroke",
+// 			"stylers": [{
+// 				"color": "#bbbbbb"
+// 			}]
+// 		}];
 
 // 		var mapOptions = {
 // 			zoom: 14,
